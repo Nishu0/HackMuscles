@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 
-import HeroBannerImage from '../assets/images/banner.png';
+import HeroBannerImage from '../assets/banner.png';
 
 const HeroBanner = () => {
   return (
@@ -11,7 +11,7 @@ const HeroBanner = () => {
         position="relative" p="20px"
     >
     <Typography color="#FF2625" fontWeight="600" fontSize="26px">
-        Fitness Club
+        HackMuscles
     </Typography>
     <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px' } }} mb="23px" mt="30px">
       Sweat, Smile <br />
@@ -21,7 +21,7 @@ const HeroBanner = () => {
         fontSize="22px" 
         fontFamily="Alegreya" 
         lineHeight="35px">
-      Check out the most effective exercises personalized to you
+      Get fit with HackMuscles - "If You Believe, You Will Achieve."
     </Typography>
     <Stack>
       <a href="#exercises" 
